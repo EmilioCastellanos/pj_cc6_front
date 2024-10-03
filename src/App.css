@@ -1,0 +1,114 @@
+body {
+  background-color: #D7FFF1 !important;
+}
+
+/* globales */
+.defaultButt {
+  background-color: #285943 !important;
+  border: 0px !important;
+  min-width: 12rem;
+  min-height: 3rem;
+  margin: 0px !important;
+  font-size: large !important;
+}
+
+.whiteFont{
+  color: white;
+}
+
+.darkFont{
+  color: #285943;
+}
+
+#myNavbar {
+  background-color: #285943 !important;
+}
+
+.defaultFont{
+  font-size: 20px;
+}
+
+.bigFont{
+  font-size: 25px;
+}
+
+.boldFont{
+  font-weight: 700;
+}
+
+/* home */
+.homeDiv {
+  height: 92.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#homeContainer {
+  background-color: white;
+  padding-top: 2.5vh;
+  width: 20rem;
+  border-radius: 0.5vw;
+}
+
+
+/* tracking */
+#trackingDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1vh;
+  align-items: center;
+  height: 92.5vh;
+  width: 100%;
+}
+
+#trackingContainer {
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+
+#orderNo {
+  background-color: #285943;
+  display: flex;
+  padding: 2vw 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+#dataOrder {
+  background-color: #77AF9C;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4vw;
+  padding: 15px 4vw;
+}
+
+#statusGraph {
+  background-color: white;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw;
+}
+
+.trackIcon{
+  height: 70px;
+}
+
+.trackLine{
+  height: 100px;
+}
+
+
+#copyButt{
+  transition: transform 0.3s ease;
+}
+
+#copyButt:hover{
+  background-color: #d7fff1;
+  transform: scale(1.1);
+
+}
